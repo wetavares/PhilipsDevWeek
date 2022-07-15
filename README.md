@@ -4,12 +4,12 @@
 
 :dart: Objetivos:
 
-Aprender fundamentos e aplicação da ropriedade flexbox em layouts responsivos.
+Aprender fundamentos e aplicação da propriedade Flexbox em layouts responsivos.
 
-:books: Aulas:
+:books: Roteiro das Aulas:
 
 :one: Introdução ao Flexbox;
 
-:two: fundamentos do Flexbox;
+:two: Fundamentos do Flexbox;
 
 :three: Projeto integrador.
