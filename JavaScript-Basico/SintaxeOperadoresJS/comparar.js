@@ -3,7 +3,7 @@ function comparar(valor1,valor2){
     let num2 = Number(valor2);
 
    if(valor1 == "" || valor2 == "") return alert('Digite dois numeros.');
-   if(isNaN(num1) || isNaN(num2)) return alert('Digite apena Numeros. (' + num1 +' - '+ num2 +')'); //typeof(num1)
+   if(isNaN(num1) || isNaN(num2)) return alert('Digite apenas Numeros. (' + num1 +' - '+ num2 +')'); //typeof(num1)
 
     const primeiraFrase = montaPrimeiraFrase(num1, num2);
     const segundaFrase = montaSegundaFrase(num1, num2);

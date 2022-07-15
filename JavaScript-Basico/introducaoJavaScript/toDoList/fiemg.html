@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIEMG TESTE</title>
+</head>
+<body>
+    <h1>FIEMG - TESTE PRATICO</h1>
+    <H2>Calcule o valor do OEE</H2>
+    <style>
+        .input-texto{
+          width: 20px;
+        }
+        form{
+            border: 3px solid black;
+            margin: 10px 20px;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+        }
+      </style>
+    <form name="form" class="formulario">
+            qualidade:<input id="qualidade" type="valor" nome="valor1" class="input-texto">
+        <br>Disponibilidade:<input id="disponibilidade" type="valor" nome="valor2" class="input-texto">
+        <br>Performace:<input id="performace" type="valor" nome="valor3" class="input-texto">
+        <br><input type="button" onclick="OEE(
+          document.getElementById('qualidade').value,
+          document.getElementById('disponibilidade').value,
+          document.getElementById('performace').value
+          )" value="OK">
+        </form>
+       <script type="text/javascript" src="assets/js/testeFiemg.js"></script>
+</body>
+</html>
